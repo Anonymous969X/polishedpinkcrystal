@@ -1,7 +1,7 @@
 	bst 525,  50,  95, 180,  85,  45,  70
 	;   bst   hp  atk  def  sat  sdf  spe
 
-	db WATER, ICE ; type
+	db WATER, ROCK ; type
 	db 60 ; catch rate
 	db 203 ; base exp
 	db PEARL, BIG_PEARL ; held items
