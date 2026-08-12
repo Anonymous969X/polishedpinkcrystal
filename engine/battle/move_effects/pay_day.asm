@@ -11,7 +11,7 @@ BattleCommand_payday:
 	; I don't think this can be written more efficiently space-wise.
 	push bc
 	ld c, a
-	ld b, 5
+	ld b, 25
 .loop
 	ld hl, wPayDayMoney + 2
 	ld a, c
