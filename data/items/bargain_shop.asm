@@ -1,10 +1,10 @@
 BargainShopData:
 	db 7
-	dbw NUGGET,       4500
-	dbw BIG_NUGGET,   8500
-	dbw PEARL,         650
-	dbw BIG_PEARL,    3500
-	dbw PEARL_STRING, 6500
-	dbw STARDUST,     1000
-	dbw STAR_PIECE,   4600
+	dbw NUGGET,       4000
+	dbw BIG_NUGGET,   8000
+	dbw PEARL,         400
+	dbw BIG_PEARL,    3000
+	dbw PEARL_STRING, 6000
+	dbw STARDUST,      500
+	dbw STAR_PIECE,   4000
 	db -1
