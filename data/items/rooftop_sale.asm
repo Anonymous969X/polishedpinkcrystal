@@ -12,7 +12,8 @@ RooftopSaleData1:
 RooftopSaleData2:
 	db 5
 	dbw ULTRA_BALL,    600
-	dbw HYPER_POTION,  800
+	dbw HYPER_POTION,  750
+	dbw MAX_POTION,   1000
 	dbw FULL_RESTORE, 1250
 	dbw FULL_HEAL,     200
 	dbw REVIVE,       1000
@@ -22,4 +23,5 @@ RooftopSaleData2:
 	dbw CALCIUM,      5000
 	dbw ZINC,         5000
 	dbw HP_UP,        5000
+	dbw PP_UP,       10000
 	db -1
