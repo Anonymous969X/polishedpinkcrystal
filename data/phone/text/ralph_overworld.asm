@@ -40,7 +40,7 @@ RalphNumberAcceptedText:
 RalphNumberDeclinedText:
 	text "…"
 	line "Whatever you want,"
-	cont "girl."
+	cont "little girl."
 	done
 
 RalphPhoneFullText:
