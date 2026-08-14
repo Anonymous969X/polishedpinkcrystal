@@ -1,7 +1,7 @@
 if !DEF(MONOCHROME)
 ; default
-	RGB 30, 24, 12
-	RGB 10, 18, 28
+	RGB 31, 26, 31
+	RGB 31, 22, 27
 ; bronze
 	RGB 27, 17, 07
 	RGB 18, 11, 04
