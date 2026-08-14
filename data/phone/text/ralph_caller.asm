@@ -1,4 +1,4 @@
-RalphNeglectingKidText:
+RalphNeglectingKidsText:
 	text "I've been spending"
 	line "more time with my"
 
