@@ -13,7 +13,7 @@ if !DEF(MONOCHROME)
 	RGB 10, 08, 31
 ; crystal
 	RGB 19, 31, 31
-	RGB 08, 21, 31
+	RGB 13, 16, 31
 else
 rept 5
 	MONOCHROME_RGB_TWO
