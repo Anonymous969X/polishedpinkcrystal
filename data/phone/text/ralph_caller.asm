@@ -1,13 +1,13 @@
-RalphNeglectingKidsText:
+RalphNeglectingWifeText:
 	text "I've been spending"
 	line "more time with my"
 
 	para ""
 	text_ram wStringBuffer4
 	text " than I"
-	line "have with my kids."
+	line "have with my wife."
 
-	para "That's a bit sad,"
+	para "That's sad,"
 	line "actually."
 	done
 
@@ -63,8 +63,8 @@ RalphBattleRematchText:
 	done
 
 RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
+	text "Call  if you're"
+	line "ever in trouble."
 	done
 
 RalphItemText:
