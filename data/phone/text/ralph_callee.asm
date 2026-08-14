@@ -68,7 +68,7 @@ RalphGreetNiteText:
 
 	done
 
-RalphGenericTextMon:
+RalphGenericText:
 	text "Are you taking"
 	line "good care of your"
 
@@ -81,15 +81,4 @@ RalphGenericTextMon:
 
 	para "A lot of life"
 	line "is like that."
-	done
-
-RalphGenericTextMom:
-	text "You calling"
-	line "your mom? …"
-
-	para "Don't give me"
-	line "that nonsense."
-
-	para "When I hang up,"
-	line "call her. Got it?"
 	done
