@@ -1,44 +1,46 @@
 RalphAskNumber1Text:
-	text "Don't young people"
-	line "fish anymore?"
+	text "You're tough..."
+	line "for a little girl."
 
-	para "I've seen rare"
-	line "#mon while I've"
-	cont "been fishing…"
+	para "But the world's"
+	line "tougher."
+	cont "Heh. Don't whine."
 
-	para "You young people"
-	line "like that, right?"
+	para "It doesn't suit"
+	line "you."
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Trade numbers"
+	line "with me."
 
-	para "I'll let you know"
-	line "if I see anything."
+	para "I'll help you"
+	line "train. Only way"
+	cont "to get tougher."
+
+	para "What do you say?"
 	done
 
 RalphAskNumber2Text:
-	text "Hm? So you do want"
-	line "me to phone if I"
-	cont "see rare #mon?"
+	text "Rare #mon?"
+	line "Yeah, I've seen"
+	cont "some around here."
+
+	para "You want me to"
+	line "call you about"
+	cont "#mon?"
 	done
 
 RalphNumberAcceptedText:
-	text "Yep, phone if I"
-	line "see rare #mon."
+	text "Call me if you"
+	line "need anything."
 
-	para "Don't worry, I"
-	line "won't forget!"
+	para "Yeah, sure, I'll"
+	line "call too."
 	done
 
 RalphNumberDeclinedText:
-	text "Oh…"
-	line "My own kids won't"
-
-	para "even give me their"
-	line "phone numbers…"
-
-	para "Is that how young"
-	line "people are today?"
+	text "…"
+	line "Whatever you want,"
+	cont "girl."
 	done
 
 RalphPhoneFullText:
@@ -51,8 +53,6 @@ RalphPhoneFullText:
 	done
 
 RalphRematchText:
-	text "Hey, kid!"
-
-	para "No losing for me"
-	line "this day!"
+	text "I've been"
+	line "waiting."
 	done
