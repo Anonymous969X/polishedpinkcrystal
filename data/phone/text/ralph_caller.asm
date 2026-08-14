@@ -1,4 +1,4 @@
-RalphNeglectingWifeText:
+RalphNeglectingKidText:
 	text "I've been spending"
 	line "more time with my"
 
@@ -7,7 +7,7 @@ RalphNeglectingWifeText:
 	text " than I"
 	line "have with my wife."
 
-	para "That's sad,"
+	para "That's a bit sad,"
 	line "actually."
 	done
 
