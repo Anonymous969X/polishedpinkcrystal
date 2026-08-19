@@ -1,5 +1,5 @@
 RooftopSaleData1:
-	db 5
+	db 7
 	dbw POKE_BALL,     100
 	dbw GREAT_BALL,    300
 	dbw REPEL,         200
@@ -10,7 +10,7 @@ RooftopSaleData1:
 	db -1
 
 RooftopSaleData2:
-	db 5
+	db 13
 	dbw ULTRA_BALL,    600
 	dbw HYPER_POTION,  750
 	dbw MAX_POTION,   1000
