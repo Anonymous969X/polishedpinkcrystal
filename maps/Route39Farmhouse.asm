@@ -1,5 +1,5 @@
-DEF ROUTE39FARMHOUSE_MILK_PRICE EQU 500
-DEF ROUTE39FARMHOUSE_DOZEN_MILK_PRICE EQU 6000
+DEF ROUTE39FARMHOUSE_MILK_PRICE EQU 6000
+DEF ROUTE39FARMHOUSE_DOZEN_MILK_PRICE EQU 12000
 
 Route39Farmhouse_MapScriptHeader:
 	def_scene_scripts
@@ -46,7 +46,7 @@ FarmerMScript_SellMilk:
 .Buy1:
 	checkmoney YOUR_MONEY, ROUTE39FARMHOUSE_MILK_PRICE
 	ifequalfwd HAVE_LESS, .NotEnoughMoney
-	giveitem MOOMOO_MILK
+	giveitem MOOMOO_MILK, 12
 	iffalsefwd .BagFull
 	takemoney YOUR_MONEY, ROUTE39FARMHOUSE_MILK_PRICE
 	sjumpfwd .Done
@@ -54,7 +54,7 @@ FarmerMScript_SellMilk:
 .Buy12:
 	checkmoney YOUR_MONEY, ROUTE39FARMHOUSE_DOZEN_MILK_PRICE
 	ifequalfwd HAVE_LESS, .NotEnoughMoney
-	giveitem MOOMOO_MILK, 12
+	giveitem MOOMOO_MILK, 24
 	iffalsefwd .BagFull
 	takemoney YOUR_MONEY, ROUTE39FARMHOUSE_DOZEN_MILK_PRICE
 
@@ -98,8 +98,8 @@ FarmerMScript_SellMilk:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
-	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
+	db "×12    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
+	db "×24   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
 	db "Cancel@"
 
 .Milking:
